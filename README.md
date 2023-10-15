@@ -16,7 +16,17 @@ Under the ubuntu system using ethernet(UDP) to can module to control the Odrive 
 |*velocity loop*| velocity |
 |*torque loop*| current |
 
+---
+
 ## 4. Wiring diagram
-![Image text](imgs/wiring.jpg)
+![diagram](imgs/wiring.JPG "structure")
+![diagram](https://github.com/Hughshy/Motor_Net_CAN_SDK/blob/master/imgs/wiring.JPG)
+---
+
+## 5. function 
+* **"motor.h"**       : organize can message according to the protocol
+* **"motor_msgs.h"**  : structure of command and callback
+* **"SocketTool.h"**  : class for UDP and TCP communication
+* **"can.h"**         : call the UDP interface to transmit msgs.
 
 
