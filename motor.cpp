@@ -5,7 +5,7 @@
 #include "motor.h"
 
 motor::motor() {
-    control_mode_ = CONTROL_MODE_POSITION_CONTROL;  // 控制模式: 0:电压控制，1: 力矩控制，2:速度控制，3:位置控制
+    control_mode_ = CONTROL_MODE_VOLTAGE_CONTROL;  // 控制模式: 0:电压控制，1: 力矩控制，2:速度控制，3:位置控制
     input_mode_ = INPUT_MODE_PASSTHROUGH;    // 电机输入模式:  0:失能，1:直接，5:位置梯形
     motor_mode_ = AXIS_STATE_CLOSED_LOOP_CONTROL;    // 工作模式: 0.电子刹车 1.失能 2.FOC闭环 3.保留电机模式
 }
