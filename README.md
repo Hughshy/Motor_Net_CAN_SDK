@@ -20,7 +20,7 @@ Under the ubuntu system using ethernet(UDP) to can module to control the Odrive 
 
 ## 4. Wiring diagram
 ![diagram](imgs/wiring.JPG "structure")
-![diagram](https://github.com/Hughshy/Motor_Net_CAN_SDK/blob/master/imgs/wiring.JPG)
+<!-- ![diagram](https://github.com/Hughshy/Motor_Net_CAN_SDK/blob/master/imgs/wiring.JPG) -->
 ---
 
 ## 5. function 
